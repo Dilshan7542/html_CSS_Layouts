@@ -6,17 +6,15 @@
        display: inline;
        font-size: 2em;
        margin-left: 15px;
-
-
+       text-decoration: none;
    }
+
  li{
     cursor:pointer;
    }
   
    header ul {
-
-       text-decoration: none;
-       position: absolute;
+  position: absolute;
        font-size: 16px;
        right: 5px;
        top: 0;
@@ -116,8 +114,21 @@ footer h2{
     bottom: 0;
     margin:auto;
 }
+a{
+    text-decoration: none;
+    
+}
+ main li a{
+    color: #fff;
+}
+header li a{
+    color: black;
+}
 
-
+body>main>aside i{
+    padding-right: 10px;
+    color:rgb(0, 204, 255);
+}
 
 
 
