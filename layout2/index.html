@@ -12,7 +12,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/font/css/all.css">
     <style>
-     
+            @media all and (max-width:400px){
+                header ul li{
+                    font-size: 1em;
+                }
+                aside {
+                    display: none;
+                    width: 0;
+                }
+                main>section {
+                    position: relative;
+                    display: inline-block;
+                    background-color: aqua;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                }
+                main>section>section>div {
+                   display: flex;
+                    flex-direction: column;
+
+
+
+                }
+                main>section>section>div div img{
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    width: 342px;
+                }
+                main>section>section>div>div:nth-child(1) img {
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+
+                }
+            }
 
 
     </style>
@@ -31,7 +66,7 @@
             </ul>
         </nav>
     </header>
-<main>ii
+<main>
 <aside>
     <ul>
         <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
@@ -48,7 +83,7 @@
             <div><img src="assets/img/2.gif" alt=""></div>
         </div>
     </section>
-    <section>
+    <section class="test">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam mollitia harum qui! Eum consectetur ex dolores quod nulla aperiam labore quibusdam nemo, reprehenderit modi excepturi, dignissimos obcaecati cupiditate, recusandae voluptatum!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam mollitia harum qui! Eum consectetur ex dolores quod nulla aperiam labore quibusdam nemo, reprehenderit modi excepturi, dignissimos obcaecati cupiditate, recusandae voluptatum!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam mollitia harum qui! Eum consectetur
